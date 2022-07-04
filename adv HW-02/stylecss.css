@@ -1,0 +1,137 @@
+body {
+  background: #8f33f9;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+}
+
+header, main, footer {
+  min-width: 900px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  padding: 30px 0 30px 0;
+  background:#90ee95;
+  overflow: auto;
+  border-bottom: 1px solid #87CEEB;
+  
+}
+
+
+h1 {
+  font-family: 'Apple Chancery', cursive;
+  font-style: regular;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+  float: left;
+  width: 765px;
+}
+
+h5 {
+    font-family: 'Ubuntu', Sabre;
+    font-size: 1.50em;
+    margin-bottom: 20px;
+}
+
+header nav {
+  float: right;
+  width: 290px;
+}
+
+a {
+  color: rgb(107, 5, 5);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+main {
+    background: rgb(197, 233, 16);
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 6px;
+}
+
+.tabs a .active {
+    background: #eee;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+
+main .content p {
+    background: rgb(6, 12, 102);
+}
+
+main .content input {
+    font-size: 2em;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 35px 0 15px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 600px;    
+}
+
+footer .contact p:nth-child(2) {
+  color: rgb(202, 29, 29);
+  font-style: italic;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+li {
+    list-style: none;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
